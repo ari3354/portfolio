@@ -1,0 +1,77 @@
+.navi-bar{
+    box-shadow: 0 2px 8px rgba(128, 128, 128, 0.4);
+    background-color: white;
+    position: fixed;
+}
+.navi-text{
+    font-weight: bold;
+}
+.navi-pad{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.nav{
+    --bs-nav-link-color: black;
+    --bs-nav-link-hover-color: blue;
+}
+.about-box{
+    background-color:	#f4f4f4;
+    height: fit-content;
+    width: fit-content;
+}
+.about-innerbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: px;
+    grid-row-gap: 0px;
+    grid-auto-flow: row;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2;}
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+
+.profile-image{
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+}
+.aboutmeimg{
+    height:400px;
+    width:400px;
+    border-radius: 10%;
+}
+.aboutme{
+    margin-top: 5%;
+}
+.aboutmetext > p{
+    font-weight: bold;
+}
+.projects{
+    background-color: #f4f4f4;
+    height:50vh;
+    margin-top: 5%;
+}
+.contactme{
+    height: 65vh;
+}
+.contactme-inner{
+    width:75vw;
+}
+.contactme-inner > p{
+    font-weight: bold;
+}
+.contactmeinnermost{
+    gap:5vw;
+}
+.footer{
+    height:25vh;
+    background-color: #191919;
+}
+.footer-container{
+    width: 75vw;
+}
+.footer-social{
+    color: white;
+}
